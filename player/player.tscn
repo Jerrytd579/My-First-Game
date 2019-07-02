@@ -202,7 +202,7 @@ tracks/0/keys = {
 extents = Vector2( 6, 7 )
 
 [sub_resource type="RectangleShape2D" id=14]
-extents = Vector2( 7, 8 )
+extents = Vector2( 6, 8 )
 
 [node name="player" type="KinematicBody2D"]
 script = ExtResource( 1 )
@@ -233,7 +233,6 @@ visible = false
 shape = SubResource( 13 )
 
 [node name="hitbox" type="Area2D" parent="."]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox"]
 shape = SubResource( 14 )
