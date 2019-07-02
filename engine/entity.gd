@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-const MAXHEALTH = 2
+var MAXHEALTH = 2
 var TYPE = 'ENEMY'
 var SPEED = 0
 var DAMAGE = 1

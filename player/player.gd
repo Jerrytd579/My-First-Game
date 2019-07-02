@@ -52,7 +52,8 @@ func controls_loop():
 	movedir.y = -int(UP) + int(DOWN)
 
 func  _init():
+	MAXHEALTH = 16
+	health = 16
 	SPEED = 70
 	TYPE = 'PLAYER'
 	DAMAGE = 0
-
