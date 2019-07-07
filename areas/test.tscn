@@ -1,12 +1,13 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://tiles/wall.tres" type="TileSet" id=1]
 [ext_resource path="res://player/player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://engine/camera.tscn" type="PackedScene" id=3]
 [ext_resource path="res://ui/hud.tscn" type="PackedScene" id=4]
 [ext_resource path="res://tiles/enemy_tilemap.tscn" type="PackedScene" id=5]
-[ext_resource path="res://pickups/key.tscn" type="PackedScene" id=6]
-[ext_resource path="res://tiles/keydoor.tscn" type="PackedScene" id=7]
+[ext_resource path="res://tiles/keydoor.tscn" type="PackedScene" id=6]
+[ext_resource path="res://pickups/heart.tscn" type="PackedScene" id=7]
+[ext_resource path="res://pickups/key.tscn" type="PackedScene" id=8]
 
 [node name="test" type="Node2D"]
 
@@ -29,18 +30,21 @@ current = true
 [node name="hud" parent="." instance=ExtResource( 4 )]
 
 [node name="enemies" parent="." instance=ExtResource( 5 )]
-tile_data = PoolIntArray( -327669, 0, 0, -327666, 0, 0, -327663, 0, 0, -327656, 0, 0, -327649, 0, 0, -327643, 0, 0, -262143, 0, 0, -262141, 0, 0, -262139, 0, 0, -262137, 0, 0, -262117, 0, 0, -262110, 0, 0, -131059, 0, 0, -131041, 0, 0, -131035, 0, 0, 196623, 0, 0, 196645, 0, 0, 262181, 0, 0, 327694, 0, 0, 327695, 0, 0, 327717, 0, 0, 720898, 0, 0, 720911, 0, 0, 720913, 0, 0, 786439, 0, 0, 786445, 0, 0, 851972, 0, 0, 851985, 0, 0, 917518, 0, 0 )
+tile_data = PoolIntArray( -327669, 0, 0, -327666, 0, 0, -327663, 0, 0, -327656, 0, 0, -327649, 0, 0, -327643, 0, 0, -262143, 0, 0, -262141, 0, 0, -262139, 0, 0, -262137, 0, 0, -262117, 0, 0, -262110, 0, 0, -131059, 0, 0, -131041, 0, 0, -131035, 0, 0, 196623, 0, 0, 196645, 0, 0, 262181, 0, 0, 327694, 0, 0, 327695, 0, 0, 327717, 0, 0, 720911, 0, 0, 720913, 0, 0, 786439, 0, 0, 786445, 0, 0, 851985, 0, 0, 917518, 0, 0 )
 
-[node name="key2" parent="." instance=ExtResource( 6 )]
-position = Vector2( 81, -85 )
-
-[node name="key3" parent="." instance=ExtResource( 6 )]
-position = Vector2( 183, 208 )
-
-[node name="keydoor2" parent="." instance=ExtResource( 7 )]
+[node name="keydoor2" parent="." instance=ExtResource( 6 )]
 position = Vector2( 160, 72 )
 rotation = 1.5708
 
-[node name="keydoor3" parent="." instance=ExtResource( 7 )]
+[node name="keydoor3" parent="." instance=ExtResource( 6 )]
 position = Vector2( 472, 80 )
 rotation = 3.14159
+
+[node name="heart" parent="." instance=ExtResource( 7 )]
+position = Vector2( 75, 201 )
+
+[node name="key" parent="." instance=ExtResource( 8 )]
+position = Vector2( 37, 186 )
+
+[node name="key2" parent="." instance=ExtResource( 8 )]
+position = Vector2( 38, 215 )

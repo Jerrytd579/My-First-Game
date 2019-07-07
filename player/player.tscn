@@ -233,6 +233,8 @@ visible = false
 shape = SubResource( 13 )
 
 [node name="hitbox" type="Area2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox"]
+visible = false
 shape = SubResource( 14 )
