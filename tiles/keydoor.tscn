@@ -25,6 +25,7 @@ shape = SubResource( 1 )
 [node name="area" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="area"]
+visible = false
 shape = SubResource( 2 )
 __meta__ = {
 "_edit_lock_": true

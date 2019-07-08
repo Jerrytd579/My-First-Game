@@ -1,9 +1,8 @@
 extends "res://pickups/pickup.gd"
 
-# Heart heals one heart
+# Golden heart is a full heal
 
 func body_entered(body):
 	if body.name == 'player' && body.health < body.MAXHEALTH:
-		body.health += 1
+		body.health = body.MAXHEALTH
 		queue_free()
-		
