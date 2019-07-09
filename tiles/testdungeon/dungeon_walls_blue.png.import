@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/white_tile_floor.png-b7c99ab1f3b59cff7a29e2d3b0595dd7.stex"
+path="res://.import/dungeon_walls_blue.png-22a5d4b54c8e77115c745999809ff411.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/white_tile_floor.png"
-dest_files=[ "res://.import/white_tile_floor.png-b7c99ab1f3b59cff7a29e2d3b0595dd7.stex" ]
+source_file="res://tiles/testdungeon/dungeon_walls_blue.png"
+dest_files=[ "res://.import/dungeon_walls_blue.png-22a5d4b54c8e77115c745999809ff411.stex" ]
 
 [params]
 

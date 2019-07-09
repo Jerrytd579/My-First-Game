@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dungeon_walls_blue.png-9e25c6391ca5d231298445db773c5a41.stex"
+path="res://.import/cave.png-b28b4dc2b252a488b9af9af00e3a9268.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/dungeon_walls_blue.png"
-dest_files=[ "res://.import/dungeon_walls_blue.png-9e25c6391ca5d231298445db773c5a41.stex" ]
+source_file="res://gfx/cave.png"
+dest_files=[ "res://.import/cave.png-b28b4dc2b252a488b9af9af00e3a9268.stex" ]
 
 [params]
 
